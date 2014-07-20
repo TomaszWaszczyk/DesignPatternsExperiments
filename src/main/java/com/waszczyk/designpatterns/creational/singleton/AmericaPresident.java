@@ -8,7 +8,7 @@ package com.waszczyk.designpatterns.creational.singleton;
 	+ private reference - no external modification.
 	+ public static method is the only place that can get an object.
  * 
- * 
+ *  Source code you can find here: https://github.com/TomaszWaszczyk/DesignPatternsExperiments
  */
 public class AmericaPresident {
 
