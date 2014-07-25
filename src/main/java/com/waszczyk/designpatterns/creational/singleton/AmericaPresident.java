@@ -9,6 +9,7 @@ package com.waszczyk.designpatterns.creational.singleton;
 	+ public static method is the only place that can get an object.
  * 
  *  Source code you can find here: https://github.com/TomaszWaszczyk/DesignPatternsExperiments
+ *  http://java.dzone.com/articles/singleton-design-pattern-%E2%80%93
  */
 public class AmericaPresident {
 
