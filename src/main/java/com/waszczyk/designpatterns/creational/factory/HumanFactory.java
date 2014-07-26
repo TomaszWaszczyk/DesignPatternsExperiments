@@ -8,9 +8,11 @@ public class HumanFactory {
 		
 		if(m == "boy"){
 			p = new Boy();
+			System.out.println("boy was created");
 		}else if(m == "girl"){
 			
 			p = new Girl();
+			System.out.println("very nice girl was just created ;-)");
 		}
 		
 		return p;
