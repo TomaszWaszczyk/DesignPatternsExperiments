@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.waszczyk.designpatterns.structural.decorator.Main" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="219" x="140" y="140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.waszczyk.designpatterns.structural.decorator.Girl" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Girl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="219" x="270" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.waszczyk.designpatterns.structural.decorator.EuropeanGirl" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/EuropeanGirl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="219" x="140" y="593"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.waszczyk.designpatterns.structural.decorator.Art" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Art.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="219" x="140" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.waszczyk.designpatterns.structural.decorator.GirlDecorator" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/GirlDecorator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="219" x="399" y="140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.waszczyk.designpatterns.structural.decorator.AmericanGirl" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/AmericanGirl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="219" x="399" y="593"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.waszczyk.designpatterns.structural.decorator.Science" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Science.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="219" x="399" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="9" name="girl"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="12" name="girl"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
