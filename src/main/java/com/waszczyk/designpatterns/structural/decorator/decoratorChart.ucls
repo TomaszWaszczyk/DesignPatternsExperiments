@@ -5,7 +5,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Main.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="219" x="140" y="140"/>    
+    <position height="-1" width="-1" x="171" y="62"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Girl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="219" x="270" y="436"/>    
+    <position height="-1" width="-1" x="301" y="367"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -27,7 +27,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/EuropeanGirl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="219" x="140" y="593"/>    
+    <position height="-1" width="-1" x="171" y="506"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Art.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="219" x="140" y="279"/>    
+    <position height="-1" width="-1" x="171" y="210"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,7 +49,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/GirlDecorator.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="219" x="399" y="140"/>    
+    <position height="-1" width="-1" x="430" y="62"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -60,7 +60,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/AmericanGirl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="219" x="399" y="593"/>    
+    <position height="-1" width="-1" x="430" y="506"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -71,7 +71,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Science.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="219" x="399" y="279"/>    
+    <position height="-1" width="-1" x="430" y="210"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
