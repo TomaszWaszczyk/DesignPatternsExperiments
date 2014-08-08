@@ -5,7 +5,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Main.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="171" y="62"/>    
+    <position height="-1" width="-1" x="156" y="153"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Girl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="301" y="367"/>    
+    <position height="-1" width="-1" x="598" y="188"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -27,7 +27,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/EuropeanGirl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="171" y="506"/>    
+    <position height="-1" width="-1" x="553" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Art.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="171" y="210"/>    
+    <position height="-1" width="-1" x="578" y="508"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,7 +49,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/GirlDecorator.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="430" y="62"/>    
+    <position height="-1" width="-1" x="841" y="352"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -60,7 +60,7 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/AmericanGirl.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="430" y="506"/>    
+    <position height="-1" width="-1" x="239" y="344"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -71,23 +71,28 @@
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/structural/decorator/Science.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="430" y="210"/>    
+    <position height="-1" width="-1" x="920" y="518"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="8">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="9" name="girl"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="10">    
+    <bendpoint x="745" y="301"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <association id="11">    
-    <end type="SOURCE" refId="4" navigable="false">      
+    <end type="SOURCE" refId="7" navigable="false">      
       <attribute id="12" name="girl"/>      
       <multiplicity id="13" minimum="0" maximum="1"/>    
     </end>    
@@ -95,19 +100,19 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="14">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <generalization id="16">    
-    <end type="SOURCE" refId="6"/>    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <generalization id="17">    
-    <end type="SOURCE" refId="3"/>    
+  <association id="15">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="girl"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
