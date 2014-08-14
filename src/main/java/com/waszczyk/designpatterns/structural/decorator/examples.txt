@@ -1,0 +1,20 @@
+The decorator is simple yet extremely powerful. It is key in achieving separation of concerns and is an essential tool for the Open Closed Principal. Take a common example of placing an order for a product:
+
+IOrderGateway
+{
+    void PlaceOrder(Order order);
+{
+Main implementation: AmazonAffiliateOrderGateway
+
+Possible decorators could be:
+
+-IncrementPerformanceCounterOrderGateway
+-QueueOrderForLaterOnTimeoutOrderGateway
+-EmailOnExceptionOrderGateway
+-InterceptTestOrderAndLogOrderGateway
+
+
+
+
+
+http://javarevisited.blogspot.com/2011/11/decorator-design-pattern-java-example.html
