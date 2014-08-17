@@ -18,3 +18,4 @@ Possible decorators could be:
 
 
 http://javarevisited.blogspot.com/2011/11/decorator-design-pattern-java-example.html
+http://www.javacodegeeks.com/2014/08/decorator-design-pattern-applied.html
