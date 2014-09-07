@@ -1,5 +1,7 @@
 package com.waszczyk.designpatterns.behavioral.strategy;
 
+
+// TIJ p. 613
 public class Main {
 
 	public static void main(String[] args) {
