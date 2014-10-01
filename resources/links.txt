@@ -1,1 +1,7 @@
 http://www.oodesign.com/strategy-pattern.html
+http://sourcemaking.com/design_patterns
+
+Main patterns:
+> Singleton
+> Decorator
+> Observer

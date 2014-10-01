@@ -1,51 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="com.waszczyk.designpatterns.creational.builder.StarbucksBuilder" 
+  <class id="1" language="java" name="com.waszczyk.designpatterns.creational.builder.Waiter" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/Waiter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="864" y="319"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.waszczyk.designpatterns.creational.builder.CoffeeBuilder" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/CoffeeBuilder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="229" y="485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.waszczyk.designpatterns.creational.builder.StarbucksBuilder" 
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/StarbucksBuilder.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="408" y="177"/>    
+    <position height="-1" width="-1" x="470" y="310"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.waszczyk.designpatterns.creational.builder.TeaBuilder" 
+  <class id="4" language="java" name="com.waszczyk.designpatterns.creational.builder.TeaBuilder" 
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/TeaBuilder.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="284" y="352"/>    
+    <position height="-1" width="-1" x="477" y="485"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.waszczyk.designpatterns.creational.builder.Starbucks" 
+  <class id="5" language="java" name="com.waszczyk.designpatterns.creational.builder.Starbucks" 
     project="DesignPatternsExperiments" 
     file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/Starbucks.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="532" y="370"/>    
+    <position height="-1" width="-1" x="469" y="93"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="4">    
+  <class id="6" language="java" name="com.waszczyk.designpatterns.creational.builder.Customer" 
+    project="DesignPatternsExperiments" 
+    file="/DesignPatternsExperiments/src/main/java/com/waszczyk/designpatterns/creational/builder/Customer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="725" y="108"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="5" name="starbucks"/>      
-      <multiplicity id="6" minimum="0" maximum="1"/>    
+      <attribute id="8" name="starbucksBuilder"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="7">    
+  <generalization id="10">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="3"/>  
   </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="12">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="13" name="starbucks"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
