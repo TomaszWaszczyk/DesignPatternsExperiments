@@ -32,3 +32,18 @@ DataOutputStream doStream = new DataOutputStream(oStream);
 doStream.writeChars("text");
 ```
 
+==============Facade=======================
+
+Example: java.net.URL
+
+javax.faces.context.FacesContext
+
+==============Flyweight=======================
+
+Example: java.lang.String
+
+java.lang.Integer#valueOf(int)
+
+The string literal pool
+
+
